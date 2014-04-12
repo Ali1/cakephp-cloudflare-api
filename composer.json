@@ -1,0 +1,17 @@
+{
+    "name": "ali1/cakephp-cloud-flare-api",
+    "description" : "A CakePHP component to use the CloudFlare in PHP",
+    "license" : "WTFPL",
+    "type" : "cakephp-plugin",
+    "authors": [
+    ],
+    "require" : {
+        "composer/installers": "*",
+        "vexxhost/cloud-flare-api": "dev-master"
+    },
+    "require-dev" : {
+    },
+    "extra": {
+        "installer-name" : "CloudFlareApi"
+    }
+}
