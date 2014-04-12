@@ -1,5 +1,5 @@
 {
-    "name": "ali1/cakephp-cloud-flare-api",
+    "name": "ali1/cakephp-cloudflare-api",
     "description" : "A CakePHP component to use the CloudFlare in PHP",
     "license" : "WTFPL",
     "type" : "cakephp-plugin",
