@@ -42,3 +42,4 @@ Don't forget to replace the placeholder text with your actual keys!
 
 ## Notes
 
+You can find the method definitions here: https://github.com/vexxhost/CloudFlare-API/blob/master/class_cloudflare.php
