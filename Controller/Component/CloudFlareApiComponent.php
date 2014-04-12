@@ -20,7 +20,7 @@ class CloudFlareApiComponent extends Component {
   public function initialize(Controller $controller) {
     // Handle loading our library firstly...
 	App::build(array('Vendor' => array(APP . 'Vendor' . DS . 'vexxhost' . DS . 'cloud-flare-api')));
-	App::import('Vendor', 'cloudflare_api', array('file' => 'class_cloudflare.php'));
+	App::import('Vendor', 'cloudflare_api', array('file' => 'vexxhost' . DS . 'cloud-flare-api' . DS . 'class_cloudflare.php'));
 	$this->Cf = new cloudflare_api(Configure::read('CloudFlareApi.email'), Configure::read('CloudFlareApi.apiKey'));
   }
 
