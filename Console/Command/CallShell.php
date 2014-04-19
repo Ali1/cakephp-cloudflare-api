@@ -1,5 +1,8 @@
 <?php
 
+App::uses('Component', 'Controller');
+App::uses('Controller', 'Controller');
+
 class CallShell extends Shell {
 
 	public function main() {
