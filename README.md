@@ -25,7 +25,9 @@ Please use composer to install so that the required dependencies are installed
 
 * Add the component to a controller
 
-		public $components = array('CloudFlareApi.CloudFlareApi');## Example
+		public $components = array('CloudFlareApi.CloudFlareApi');
+
+## Example
 
 * Remove a file from the cache
 
