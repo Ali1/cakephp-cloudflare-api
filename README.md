@@ -42,6 +42,7 @@ Don't forget to replace the placeholder text with your actual keys!
 * From a console
 
 	Console/cake CloudFlareApi.call fpurge_ts mydomain.com
+	Console/cake CloudFlareApi.call zone_file_purge mydomain.com http://forum.mydomain.com/images/logo.png
 
 ## Notes
 
