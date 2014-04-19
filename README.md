@@ -3,26 +3,29 @@
 This plugin is a (*very*) thin veil over vexxhost's [CloudFlare-API](https://github.com/vexxhost/CloudFlare-API) for use in CakePHP controllers.
 Please use composer to install so that the required dependencies are installed
 
-## Installation
+## Composer Installation
 
 * Add to composer, this will also install the Amazon SDK for PHP as a dependency
 
         "ali1/cakephp-cloudflare-api": "dev-master"
 
-* Add the component to a controller
+## Non-composer Installation
 
-		public $components = array('CloudFlareApi.CloudFlareApi');
+* Place the contents of this repo in Plugin/CloudFlareApi
+* Download the contents of https://github.com/vexxhost/CloudFlare-API into Plugin/CloudFlareApi/Vendor/vexxhost/cloud-flare-api
 
 ## Configuration
 
-You must add configuration to bootstrap.php.
+* You must add configuration to bootstrap.php.
 
 		Configure::write('CloudFlareApi.email', 'CLOUDFLARE EMAIL');
 		Configure::write('CloudFlareApi.apiKey', 'CLOUDFLARE API KEY');
 
-Don't forget to replace the placeholder text with your actual keys!
+  *  Don't forget to replace the placeholder text with your actual keys!
 
-## Example
+* Add the component to a controller
+
+		public $components = array('CloudFlareApi.CloudFlareApi');## Example
 
 * Remove a file from the cache
 
